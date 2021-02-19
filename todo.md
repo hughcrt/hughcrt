@@ -1,6 +1,5 @@
 # TODO
 - [ ] Github profile link
-- [ ] Favicon
 - [ ] Responsive
 - [ ] Software engineer consultant. 
 - [ ] Responsive 
