@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className={styles.title}>Hugh Chocart</h1>
 
         <p className={styles.description}>
-          Hi there! I'm a UI engineer consultant.
+          I'm a software engineer consultant. 
           <br />I founded{" "}
           <a href="https://neuron." target="_blank">
             neurON
@@ -25,8 +25,8 @@ export default function Home() {
       </main>
 
       <section className={styles.clients}>
-        <h3>Some of my previous clients:</h3>
-
+        <h3>Trusted by clients all over the world:</h3>
+        <div>
         <a href="https://getleda.com" target="_blank">
           <Image src="/img/leda.svg" alt="Leda logo" width="112" height="75" />
         </a>
@@ -45,7 +45,7 @@ export default function Home() {
             src="/img/upaged.png"
             alt="Upaged logo"
             width="175"
-            height="55"
+            height="50"
           />
         </a>
 
@@ -57,6 +57,7 @@ export default function Home() {
             height="75"
           />
         </a>
+        </div>
       </section>
 
       <footer className={styles.footer}>
