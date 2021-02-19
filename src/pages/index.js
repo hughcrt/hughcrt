@@ -7,8 +7,6 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Hugh Chocart</title>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-        <link rel="mask-icon" href="/favicon.svg" color="#FFBC55"/>
       </Head>
 
       <main className={styles.main}>
