@@ -67,42 +67,4 @@
 
 }
 
-.clients {
-   margin: 100px 0;
-}
-
-
-@media (max-width: 650px) {
-  .clients { 
-    margin-top: 50px;
-  }
-}
-
-.clients h3 {
-  text-align: center;
-  font-size: 25px; 
-  margin-left: 23px;
-  margin-bottom: 40px;
-  color: var(--hugh-yellow);
-}
-
-.clients div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.clients a {
-  margin: 0 30px;
-  display: flex;
-  justify-content: center;
-}
-
-@media (max-width: 650px) { 
-  .clients a > div{
-    width: 75%;
-    height: 75%;
-  }
-}
 

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import SocialProofSection from "../components/SocialProofSection";
 
 export default function Home() {
   return (
@@ -23,42 +24,7 @@ export default function Home() {
           Currently based in Seoul 🇰🇷
         </p>
       </main>
-
-      <section className={styles.clients}>
-        <h3>Trusted by clients all over the world:</h3>
-        <div>
-        <a href="https://getleda.com" target="_blank">
-          <Image src="/img/leda.svg" alt="Leda logo" width="112" height="75" />
-        </a>
-
-        <a href="https://tricycle-environnement.fr" target="_blank">
-          <Image
-            src="/img/tricycle.png"
-            alt="Tricycle Environnement logo"
-            width="172"
-            height="67"
-          />
-        </a>
-
-        <a href="https://www.upaged.com" target="_blank">
-          <Image
-            src="/img/upaged.png"
-            alt="Upaged logo"
-            width="175"
-            height="50"
-          />
-        </a>
-
-        <a href="https://ec.europa.eu/info/index_en" target="_blank">
-          <Image
-            src="/img/european-commission.svg"
-            alt="European Commission logo"
-            width="250"
-            height="75"
-          />
-        </a>
-        </div>
-      </section>
+       <SocialProofSection />
 
       <footer className={styles.footer}>
         <div></div>
