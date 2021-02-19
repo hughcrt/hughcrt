@@ -1,23 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Particles from 'react-particles-js';
-import config from "../utils/particlesjs-config.js";
 
 export default function Home() {
   return (
-      <div>
+    <div className={styles.container}>
       <Head>
         <title>Hugh Chocart</title>
       </Head>
 
-    <div className={styles.container}>
-      <Particles params={config} style={{position: 'absolute', left: 0}} />
-        <main className={styles.main}>
+      <main className={styles.main}>
         <h1 className={styles.title}>Hugh Chocart</h1>
 
         <p className={styles.description}>
-          I'm a software engineer consultant.
+          Hi there! I'm a UI engineer consultant.
           <br />I founded{" "}
           <a href="https://neuron." target="_blank">
             neurON
@@ -62,7 +58,6 @@ export default function Home() {
           />
         </a>
       </section>
-      </div>
 
       <footer className={styles.footer}>
         <a href="mailto:me@hugh.sh">me@hugh.sh</a>
