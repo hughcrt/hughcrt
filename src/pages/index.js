@@ -60,7 +60,9 @@ export default function Home() {
       </section>
 
       <footer className={styles.footer}>
+        <div></div>
         <a href="mailto:me@hugh.sh">me@hugh.sh</a>
+        <a className="github" href="https://github.com/hughcrt" target="_blank"><Image src="/img/github.svg" alt="Github Logo" width={30} height={30} /></a>
       </footer>
     </div>
   );
