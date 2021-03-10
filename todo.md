@@ -1,4 +1,5 @@
 # TODO
+- [ ] Chakra UI
 - [ ] Remove css modules and use normal css
 - [ ] Responsive 
 - [ ] Blog 
