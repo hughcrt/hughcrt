@@ -46,7 +46,12 @@ function SocialProofSection() {
         }}
       >
         <h3
-          style={{ flexBasis: "100%", textAlign: "center", fontSize: "25px" }}
+          style={{
+            flexBasis: "100%",
+            textAlign: "center",
+            fontSize: "25px",
+            color: "#FFBC55",
+          }}
         >
           Some of my previous clients:
         </h3>
